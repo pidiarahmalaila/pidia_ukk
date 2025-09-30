@@ -10,8 +10,8 @@ class EkstrakulikulerController extends Controller
 {
     public function index() : View
     {
-        $ekstrakulikulers = Ekstrakulikuler::latest()->paginate(10);
+        $ekstrakurikuler = Ekstrakulikuler::all();
 
-        return view('ekstrakulikuler.index', compact('ekstrakulikuler'));
+        return view('ekstrakurikuler', compact('ekstrakurikuler'));
     }
 }

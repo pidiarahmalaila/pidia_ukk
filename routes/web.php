@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\BeritaController;
+use App\Http\Controllers\EkstrakulikulerController;
 use App\Http\Controllers\ProfilController;
 use Illuminate\Support\Facades\Route;
 
@@ -20,4 +21,5 @@ Route::get('/galeri', function () {
     return view('galeri');
 });
 
-Route::get('berita', [BeritaController::class, 'index'])->nama('berita.index');
+Route::get('/berita', [BeritaController::class, 'index'])->name('berita');
+Route::get('/ekstrakurikuler', [EkstrakulikulerController::class, 'index'])->name('ekstrakulikuler');
