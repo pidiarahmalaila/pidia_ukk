@@ -14,12 +14,16 @@ Route::get('/profil', function () {
 Route::get('/berita', function () {
     return view('berita');
 });
-Route::get('/ekstrakurikuler', function () {
-    return view('ekstrakurikuler');
-});
+// Route::get('/ekstrakurikuler', function () {
+//     return view('ekstrakurikuler');
+// });
 Route::get('/galeri', function () {
     return view('galeri');
 });
 
 Route::get('/berita', [BeritaController::class, 'index'])->name('berita');
-Route::get('/ekstrakurikuler', [EkstrakulikulerController::class, 'index'])->name('ekstrakulikuler');
+
+
+//Rute Ekskul
+Route::resource('ekskul', EkstrakulikulerController::class);
+Route::get('/ekstrakurikuler', [EkstrakulikulerController::class, 'ekstrakurikuler'])->name('ekstrakurikuler');
