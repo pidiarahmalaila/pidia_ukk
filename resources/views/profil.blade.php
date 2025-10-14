@@ -18,41 +18,57 @@
                     </p>
                  </div>
                  <!-- Informasi Sekolah -->
-                  <div class="bg-light shadow-sm p-4 rounded-4 w-100">
-                    <ul class="list-unstyled m-0">
-                        <li class="mb-2">
-                            <b>Nama Sekolah</b>
-                            : SMK Negeri 4 Kota Tasikmalaya
-                        </li>
-                        <li class="mb-2">
-                            <b>NPSN</b>
-                            : 20276063
-                        </li>
-                        <li class="mb-2">
-                            <b>Nomor Statistik Sekolah</b>
-                            : 401327810004
-                        </li>
-                        <li class="mb-2">
-                            <b>Jalan</b>
-                            : Jl. Depok RT 02 RW 05
-                        </li>
-                        <li class="mb-2">
-                            <b>Kelurahan</b>
-                            : Sukamenak
-                        </li>
-                        <li class="mb-2">
-                            <b>Kecamatan</b>
-                            : Purbaratu
-                        </li>
-                        <li class="mb-2">
-                            <b>Kota</b>
-                            : Tasikmalaya
-                        </li>
-                    </ul>
-                  </div>
-            </div>
-        </div>
-     </section>
+                  <div class="card bg-light shadow rounded-4 mt-5" data-v-c52f402c="">
+        <table class="table m-3" data-v-c52f402c="">
+            <tbody data-v-c52f402c="">
+                <tr data-v-c52f402c="">
+                    <td data-v-c52f402c="">Nama Sekolah</td>
+                    <td data-v-c52f402c="">:</td>
+                    <td data-v-c52f402c="">SMK Negeri 4 Kota Tasikmalaya</td>
+                </tr>
+                <tr data-v-c52f402c="">
+                    <td data-v-c52f402c="">NPSN</td>
+                    <td data-v-c52f402c="">:</td>
+                    <td data-v-c52f402c="">20276063</td>
+                </tr>
+                <tr data-v-c52f402c="">
+                    <td data-v-c52f402c="">Alamat</td>
+                    <td data-v-c52f402c="">:</td>
+                    <td data-v-c52f402c="">Jl Depok RT 02 RW 05, Kelurahan Sukamenak, Kecamatan Purbaratu, <br data-v-c52f402c=""> Kota Tasikmalaya, Provinsi Jawabarat</td>
+                </tr>
+                <tr data-v-c52f402c="">
+                    <td data-v-c52f402c="">Telp/faks</td>
+                    <td data-v-c52f402c="">:</td>
+                    <td data-v-c52f402c="">(0265) 7528981</td>
+                </tr>
+                <tr data-v-c52f402c="">
+                    <td data-v-c52f402c="">Email</td>
+                    <td data-v-c52f402c="">:</td><td data-v-c52f402c="">info@smkn4-tsm.sch.id</td>
+                </tr>
+                <tr data-v-c52f402c="">
+                    <td data-v-c52f402c="">Tahun Berdiri/Beroperasi</td>
+                    <td data-v-c52f402c="">:</td>
+                    <td data-v-c52f402c="">2010</td>
+                </tr>
+                <tr data-v-c52f402c="">
+                    <td data-v-c52f402c="">Nomor SK Pendirian</td>
+                    <td data-v-c52f402c="">:</td>
+                    <td data-v-c52f402c="">420/9/SK-BPPT/2012</td>
+                </tr>
+                <tr data-v-c52f402c="">
+                    <td data-v-c52f402c="">Tanggal SK Pendirian</td>
+                    <td data-v-c52f402c="">:</td>
+                    <td data-v-c52f402c="">06 Februari 2012</td>
+                </tr>
+                <tr data-v-c52f402c="">
+                    <td data-v-c52f402c="">Kepemilikan</td>
+                    <td data-v-c52f402c="">:</td>
+                    <td data-v-c52f402c="">Pemerintah Daerah</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
     <!-- hero section -->
     <div class="container">
         <h4 class="mt-5">Sejarah <br> 
